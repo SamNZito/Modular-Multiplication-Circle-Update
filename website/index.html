@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="style.css">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML/JS Multiplication Circle</title>
+</head>
+<body> 
+    <canvas class="" id="myCanvas"></canvas>
+    <script src="canvas.js"></script>
+    <div class="temp">
+        <div class="input-box" style="width: 245px; height: 220px;">
+            <ul style="height: auto;">
+                <li class="folder">
+                    <div class="maths">
+                        <ul style="list-style: none; margin: 0; padding: 0; width: 100%; clear: both;">
+                            <li class="title">Maths</li>
+                            <li class="lineNum">
+                                <div>
+                                    <span class="lineName">TotalLines</span>
+                                    <div class="l">
+                                        <input style="color:white; background-color: #303030" type="number" id="bean" maxlength="10">
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="multiNum">
+                                <div>
+                                    <span class="multiName">Multiplier</span>
+                                    <div class="m">
+                                        <input style="color:white; background-color: #303030" type="number" id="bean2" maxlength="10">
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+            <button class="colorChange" type="button" onclick="colorChange()">Random Color</button>
+            <button class="rotateBtn" type="button" onclick="rotated()">Rotate 180</button>
+            <button class="openBtn" type="button" onclick="toggleNav()">Open</button>
+    </div>
+</body>
+</html>

@@ -1,0 +1,128 @@
+/* CSS DOCUMENT */
+canvas{
+    position: absolute;
+    transform: rotate(0deg);
+    transition: 0.5s;
+}
+
+.input-box{
+    margin-right: 80%;
+    position: relative;
+    background-color: #575a6c;
+    color: white;
+}
+
+/*input controls style*/
+.temp li.folder{
+    border-bottom: 0;
+    list-style: none;
+}
+
+.maths{
+    margin-top: 0%;
+    color: white;
+    margin-left: -40px;
+}
+
+.maths li.title{
+    padding-left: 16px;
+    background-color: black;
+}
+.maths li.lineNum{
+    padding-left: 16px;
+    cursor: default;
+    float: left;
+    clear: left;
+    width: 40%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    
+}
+.l{
+    float: left;
+    width: 60%;
+    position: relative;
+}
+
+.maths li.multiNum{
+    padding-left: 16px;
+    cursor: default;
+    float: left;
+    clear: left;
+    width: 40%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.m{
+    float: left;
+    width: 60%;
+    position: relative;
+}
+
+body{
+    background-color: #292A2D;
+}
+
+.temp{
+    position: fixed;
+    overflow: hidden;
+    margin:0%;
+    top: 0;
+    left: 10;
+    transform: translateY(-205px);
+    transition: transform 0.3s;
+}
+
+.nav-open .temp{
+    transform: translateX(0);
+}
+
+.openBtn{
+    margin-top: 21%;
+    margin-left: 0%;
+    height: 30px;
+    width: 245px;
+    color: white;
+    background-color: black;
+    border: grey;
+    cursor: pointer;
+}
+
+.openBtn:hover{
+    background-color:#303030;
+}
+
+.rotated0{
+    transform: rotate(180deg);
+    transition: transform 0.5s;
+}
+
+.rotateBtn{
+    margin-left: 15%;
+    margin-top: 10%;
+    height: 40px;
+    width: 60px;
+    color: white;
+    background-color: black;
+    border: grey;
+    cursor: pointer;
+}
+
+.colorChange{
+    margin-left: 15%;
+    height: 40px;
+    width: 60px;
+    color: white;
+    background-color: black;
+    border: grey;
+    cursor: pointer;
+}
+
+.colorChange:hover{
+    background: linear-gradient(90deg, red, orange, yellow, green, blue, purple);
+}
+
+.rotateBtn:hover{
+    background-color:#303030;
+}
